@@ -328,3 +328,13 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+*.h
+/queue implemented by two stacks/pch.cpp
+/queue implemented by two stacks/queue implemented by two stacks.sln
+/queue implemented by two stacks/queue implemented by two stacks.vcxproj
+/queue implemented by two stacks/queue implemented by two stacks.vcxproj.filters
+*.vcxproj
+*.filters
+*.sln
+/QuickSort/pch.cpp
+/QuickSort
