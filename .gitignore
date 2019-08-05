@@ -336,5 +336,7 @@ ASALocalRun/
 *.vcxproj
 *.filters
 *.sln
+
+/ConsoleApplication1
+/ConsoleApplication2
 /QuickSort/pch.cpp
-/QuickSort
