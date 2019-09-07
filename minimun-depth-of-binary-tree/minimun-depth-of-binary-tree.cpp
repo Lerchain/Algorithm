@@ -3,7 +3,7 @@
 #include <vector>
 #include <algorithm>
 #include <map>
-
+#include <windows.h>
 using namespace std;
 
 
@@ -88,10 +88,15 @@ TreeNode* change(vector<int> v)
 }
 int main()
 {
-	TreeNode *p = change({ 1,2 });
-	Solution s;
-	cout << s.run(p)<<endl;
-	TreeNode* q = change({ 1,2,3,4,5,NULL,7,NULL,NULL,10,11 });//唯一的大问题就是NULL其实是0，也就是说数组里不能有0.但是，vector只能容纳int，所以目前还没想出办法。
-	cout << s.run(q)<<endl; 
+	//TreeNode *p = change({ 1,2 });
+	//Solution s;
+	//cout << s.run(p)<<endl;
+	//TreeNode* q = change({ 1,2,3,4,5,NULL,7,NULL,NULL,10,11 });//唯一的大问题就是NULL其实是0，也就是说数组里不能有0.但是，vector只能容纳int，所以目前还没想出办法。
+	//cout << s.run(q)<<endl; 
+	vector<int> v = { 3,-1,1 }, q = {2,5,1};
+	u_int16_t i = 128;
+
+	cout
+	//int n[][3] = { 10, 20, 30, 40, 50, 60 }; int(*p)[3]; p = n; cout << p[0][0] << "," << *(p[0] + 1) << ", " << (*p)[2] << endl;
 }
 
